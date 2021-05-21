@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Raleway&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="nav-bar" id="toggle">
+      <div class="logo">
+        <img src="./assets/img/l.svg" alt="">
+      </div>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <a href="javascript:void(0);" class="icon" onclick="toggler()"><img src="./assets/img/menu.svg" alt=""
+            width="40px" style="margin: 20px 2px"></a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="presentation" id="sobre">
+      <div class="avatar">
+        <img src="assets/img/avatarLuc.png">
+      </div>
+      <article>
+        <h4 class="greetings typing-ani">Olá, meu nome é Luciana Oliveira!</h4>
+        <h4 class="greet2">Olá, meu nome é Luciana Oliveira!</h4>
+
+        <div class="text">
+          <div class="icon-loc">
+            <img src="./assets/img/programming.svg" width="40px" alt="Programação">
+          </div>
+          <p> Formada em Programação Full Stack pela <a
+              style="text-decoration: none ; color: #8d163eff; font-weight: bold;"
+              href="https://drive.google.com/file/d/1QytrBW-qF2K_HLRv4qrplbEGdB3Rc8vM/view?usp=sharing"
+              target="_blank">Recode Pro</a> || Turma de 2020. </p>
+        </div>
+        <div class="text">
+          <div class="icon-loc">
+            <img src="./assets/img/mortarboard.svg" width="40px" alt="Formação">
+          </div>
+          <p> Graduada em Publicidade e Propaganda pela Universidade Estácio de Sá || 2019.2 </p>
+        </div>
+        <div class="text">
+          <div class="icon-loc">
+            <img src="./assets/img/pin.svg" width="40px" alt="Localidade">
+          </div>
+          <p>Moro em Maricá, um município localizado na região metropolitana do Rio de Janeiro.</p>
+        </div>
+        <div class="text">
+          <div class="icon-loc">
+            <img src="./assets/img/plus.svg" width="40px" alt="Saiba mais">
+          </div>
+          <p>Quer saber mais sobre mim? Conecte-se ao meu <a
+              style="text-decoration: none ; color: #8d163eff; font-weight: bold;"
+              href="https://www.linkedin.com/in/lucoliv/" target="_blank">Linkedin</a> </p>
+        </div>
+      </article>
+    </section>
+
+    <section class="project" id="projects">
+      <h1 class="typing-anime">Projetos</h1>
+      <hr>
+      <div class="videos">
+        <div class="py">
+          <video width="100%" height="auto" controls>
+            <source src="./assets/img/videos/doatech.mp4" type="video/mp4">
+          </video>
+          <p>
+            Vídeo Pitch do Projeto DoaTech. Trabalho realizado em grupo pelo Squad 7
+            durante o curso Recode Pro.
+          </p>
+          <p style="text-align: center;">
+            <a href="https://github.com/luc0liv/Projeto_DoaTech" target="_blank">Link para o repositório</a>
+          </p>
+        </div>
+        <div class="py">
+          <video width="100%" height="auto" controls>
+            <source src="./assets/img/videos/calc-py.mp4" type="video/mp4">
+          </video>
+          <p>
+            Calculadora criada com Python, utilizando o framework Flask.
+          </p>
+          <p style="text-align: center;">
+            <a href="https://github.com/luc0liv/Calculadora_Python" target="_blank">Link para o repositório</a>
+          </p>
+        </div>
+        <div class="py">
+          <video width="100%" height="auto" controls>
+            <source src="./assets/img/videos/react.mp4" type="video/mp4">
+          </video>
+          <p>
+            Loja fictícia criada para a prática de React. (React-Bootstrap, Code Splitting, Lazy Loading) <br>
+          </p>
+          <p style="text-align: center;">
+            <a href="https://github.com/luc0liv/FSELETRO_REACT" target="_blank">Link para o repositório</a>
+          </p>
+        </div>
+        <div class="py">
+          <video width="100%" height="auto" controls>
+            <source src="./assets/img/videos/fsphp.mp4" type="video/mp4">
+          </video>
+          <p>
+            Loja fictícia criada para a prática de PHP, Bootstrap e conexão com banco de dados.
+            <br>
+          </p>
+          <p style="text-align: center;">
+            <a href="https://github.com/luc0liv/Full-Stack-Eletro" target="_blank">Link para o repositório</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="where" id="contato">
+
+      <img id="cont" src="assets/img/contacts.svg" width="50%">
+
+      <form class="recado">
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Digite seu nome completo..." required>
+
+        <label for="email">E-mail</label>
+        <input type="email" placeholder="Digite seu email..." required>
+
+        <label for="msg">Sua mensagem</label>
+        <textarea placeholder="Digite sua mensagem aqui..." required></textarea>
+
+        <input type="submit" class="btn" value="Enviar"></input>
+
+        <div class="social">
+          <a href="https://github.com/luc0liv" target="_blank"> <img src="./assets/img/github (1).svg" alt="Github"></a>
+          <a href="https://www.linkedin.com/in/lucoliv/" target="_blank"> <img src="./assets/img/linkedin.svg"
+              alt="Linkedin"></a>
+          <a href="https://www.instagram.com/luc0liv/" target="_blank"> <img src="./assets/img/instagram.svg"
+              alt="Instagram"></a>
+          <a href="mailto:luoliveiradacunha@gmail.com" target="_blank"> <img src="./assets/img/email.svg"
+              alt="Email"></a>
+        </div>
+      </form>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Luciana Oliveira da Cunha, 2021</p>
+    <div class="repo">
+      <a href="https://github.com/luc0liv/site-my-portfolio" target="_blank"><img src="./assets/img/github (1).svg"
+          alt="">Link para o
+        repositório desse projeto </a>
+    </div>
+    <div id="voltarTopo">
+      <a href="#" id="subir"><img src="./assets/img/up.svg" alt="Voltar ao topo"></a>
+    </div>
+
+    <div class="credits">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      <br>
+      Photo by <a
+        href="https://unsplash.com/@octadan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Octavian
+        Dan</a> on <a
+        href="https://unsplash.com/s/photos/projects?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </div>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
